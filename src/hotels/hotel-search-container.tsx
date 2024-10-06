@@ -26,7 +26,12 @@ export const HotelSearchContainer = () => {
 
     return (
         <div data-testid="hotel-search-container">
-            <SearchPanel hotelCount ={hotels.length} onSort={onSortChanged}/>
+            <div className="flex flex-row">
+               <div className="flex-1 text-left">
+                    <h5 className="flex-1 text-left italic" data-testid="hotel-search-result">{hotels.length} hotels in <span className="font-bold">Sydney</span> </h5>
+               </div>
+               <div><SearchPanel onSort={onSortChanged}/></div>
+            </div>
             <SearchResult hotels = {hotels}/>
         </div>
     );
