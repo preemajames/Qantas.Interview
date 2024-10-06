@@ -1,8 +1,9 @@
 # How to run the Qantas hotel search app
 #### Clone the repository or download Qantas.Interview folder
+### Install lastest node js from - https://nodejs.org/en
 #### open command prompt and navigate to the Qantas.Interview folder
-#### Run  -> npm install
-#### Run -> npm start
+#### Run  -> npm install        
+#### Run -> npm start    ( You can now view react app  in the browser. http://localhost:3000/)
 #### For the execution of the the unit test  -> npm test
 
 # Component design
