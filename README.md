@@ -3,4 +3,4 @@
 #### open command prompt and navigate to the Qantas.Interview folder
 #### Run  -> npm install
 #### Run -> npm start
-#### For execution the unit test  -> npm test
+#### For the execution of the the unit test  -> npm test
